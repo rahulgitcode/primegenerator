@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <meta name="description" content=""></meta>
+    <meta name="author" content=""></meta>
+    
+    <title>ABOUT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet"></link>
+	<link href="css/bootstrap/ie10-viewport-bug-workaround.css" rel="stylesheet"></link>
+	<link href="css/bootstrap/navbar-fixed-top.css" rel="stylesheet"></link>
+    
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    
+</head>
+<body>
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+            <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+	          	  <a class="navbar-brand" href="/about">ABOUT</a>
+        	</div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		            <li><a href="/generateNthPrime">NTH PRIME NUMBER</a></li>
+		            <li><a href="/generatePrime">PRIME NUMBER GENERATOR</a></li>
+		          </ul>
+        	</div>
+    </div>
+    </nav>
+    
+    <header>
+    	
+        <div class="container">
+        	<div class="jumbotron">
+	            
+	            <h2>Prime Number Generator:</h2><br />
+				<p>This application has also been deployed on AWS cloud :<br />
+				<a href="http://primegenerator-hdepot.us-west-2.elasticbeanstalk.com">http://primegenerator-hdepot.us-west-2.elasticbeanstalk.com</a><br /><br />
+				1. URL for prime number generator upto n<br /><a href="http://primegenerator-hdepot.us-west-2.elasticbeanstalk.com/generatePrime">http://primegenerator-hdepot.us-west-2.elasticbeanstalk.com/generatePrime</a><br /> <br /> 
+				2. URL for obtaining nth prime number&lt;/br&gt;<br /><a href="http://primegenerator-hdepot.us-west-2.elasticbeanstalk.com/generateNthPrime">http://primegenerator-hdepot.us-west-2.elasticbeanstalk.com/generateNthPrime</a><br /> <br /> 
+				Sieve of Eratosthenes algorithm is used to generate prime numbers.<br /> <br />
+				Spring Boot framework and Bootstrap UI has been used to build the application</p>
+				<p>&nbsp;</p>
+	            
+	    	</div>
+        </div>
+        
+    </header>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    
+</body>
+</html>

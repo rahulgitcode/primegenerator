@@ -26,6 +26,16 @@ public class PageController extends WebMvcConfigurerAdapter {
 	@Autowired
 	PrimeGenerator primeGenerator;
 	
+	@RequestMapping(value="/", method=RequestMethod.GET)
+    public String home(FormData formData) {
+		return "redirect:/generatePrime";
+    }
+	
+	@RequestMapping(value="/about", method=RequestMethod.GET)
+    public String about(Model model) {
+		return "about";
+    }
+	
 	@RequestMapping(value="/generatePrime", method=RequestMethod.GET)
     public String showPrimeForm(FormData formData) {
         return "primegenerator";
