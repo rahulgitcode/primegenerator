@@ -1,0 +1,5 @@
+com\primegenerator\controller\PageController.class
+com\primegenerator\service\PrimeGenerator.class
+com\primegenerator\PrimegeneratorApplication.class
+com\primegenerator\ServletInitializer.class
+com\primegenerator\model\FormData.class
